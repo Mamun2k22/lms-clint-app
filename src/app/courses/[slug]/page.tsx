@@ -3,7 +3,7 @@ import { serverApi } from "@/lib/apis/http";
 import type { Course, Module, Lecture } from "@/lib/types";
 import Link from "next/link";
 
-type Props = { params: { slug: string } };
+type Props = { params: Promise<{ slug: string }> }; // <-- Promise
 
 function formatPrice(n: number | string | undefined) {
   const v = Number(n ?? 0);
@@ -11,14 +11,15 @@ function formatPrice(n: number | string | undefined) {
 }
 
 export default async function CourseDetails({ params }: Props) {
-  const course = await serverApi<Course>(`/courses/${params.slug}`);
+  const { slug } = await params; // <-- await params
 
+  const course = await serverApi<Course>(`/courses/${slug}`);
   const modules = await serverApi<Module[]>(`/modules?course=${course._id}`);
   const lectures = await serverApi<Lecture[]>(`/lectures?course=${course._id}`);
   const totalLectures = lectures.length;
 
   // tiny derived info for better UX
-  const estDuration = Math.max(1, Math.round(totalLectures * 8 / 6)) * 0.6; // ~8min/lecture
+  const estDuration = Math.max(1, Math.round((totalLectures * 8) / 6)) * 0.6; // ~8min/lecture
   const hours = Math.max(1, Math.round(estDuration));
 
   return (
@@ -162,7 +163,6 @@ export default async function CourseDetails({ params }: Props) {
               Alex focuses on clear explanations and practical examples so you can apply concepts immediately.
             </p>
 
-            {/* Static review block */}
             <div className="mt-6 space-y-4">
               <h3 className="text-sm font-semibold text-gray-800">What learners say</h3>
               <ul className="grid gap-3 sm:grid-cols-2">

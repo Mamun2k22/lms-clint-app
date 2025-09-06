@@ -1,12 +1,12 @@
 {
   "/_not-found/page": "/_not-found",
+  "/favicon.ico/route": "/favicon.ico",
+  "/courses/[slug]/page": "/courses/[slug]",
+  "/learn/[courseId]/page": "/learn/[courseId]",
   "/admin/courses/[id]/content/page": "/admin/courses/[id]/content",
   "/admin/courses/page": "/admin/courses",
   "/admin/lectures/page": "/admin/lectures",
-  "/admin/login/page": "/admin/login",
   "/admin/page": "/admin",
-  "/courses/[slug]/page": "/courses/[slug]",
-  "/favicon.ico/route": "/favicon.ico",
-  "/learn/[courseId]/page": "/learn/[courseId]",
+  "/admin/login/page": "/admin/login",
   "/page": "/"
 }

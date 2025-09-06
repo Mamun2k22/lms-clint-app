@@ -1,3 +1,0 @@
-module.exports=[87485,a=>{"use strict";a.s(["api",()=>c,"serverApi",()=>d]);let b="http://localhost:4000";async function c(a,d={}){let e=new Headers(d.headers);e.has("Content-Type")||e.set("Content-Type","application/json");let f=await fetch(`${b}${a}`,{...d,headers:e,cache:"no-store"});if(!f.ok)throw await f.json().catch(()=>({message:f.statusText}));return await f.json()}async function d(a,c={}){let e=await fetch(`${b}${a}`,{...c,cache:"no-store"});if(!e.ok)throw await e.json().catch(()=>({message:e.statusText}));return await e.json()}}];
-
-//# sourceMappingURL=OneDrive_Desktop_Parrale%20task_lms%20client_src_lib_apis_http_ts_2875c5e6._.js.map
