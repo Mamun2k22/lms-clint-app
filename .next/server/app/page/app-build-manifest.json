@@ -1,0 +1,24 @@
+{
+  "pages": {
+    "/page": [
+      "static/chunks/0bbf2_next_dist_ebd0b712._.js",
+      "static/chunks/OneDrive_Desktop_Parrale task_lms client_src_app_favicon_ico_mjs_1df5b4fc._.js",
+      "static/chunks/[root-of-the-server]__ce8fc1ea._.css",
+      "static/chunks/0bbf2_next_18286e25._.js",
+      "static/chunks/b1735_Parrale task_lms client_src_app_components_layout_SiteHeader_tsx_5ba1d7bf._.js",
+      "static/chunks/OneDrive_Desktop_Parrale task_lms client_src_app_layout_tsx_b51603d9._.js",
+      "static/chunks/0bbf2_next_dist_client_components_builtin_global-error_fd2e272c.js",
+      "static/chunks/OneDrive_Desktop_Parrale task_lms client_src_app_components_course_843c478c._.js",
+      "static/chunks/OneDrive_Desktop_Parrale task_lms client_src_app_page_tsx_fd2e272c._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_df064d22._.js",
+      "static/chunks/0bbf2_next_dist_compiled_react-dom_68e035a3._.js",
+      "static/chunks/0bbf2_next_dist_compiled_next-devtools_index_ae1335e5.js",
+      "static/chunks/0bbf2_next_dist_compiled_ba378c60._.js",
+      "static/chunks/0bbf2_next_dist_client_0a8fe7af._.js",
+      "static/chunks/0bbf2_next_dist_8daebe2f._.js",
+      "static/chunks/0bbf2_@swc_helpers_cjs_5c0e4447._.js",
+      "static/chunks/OneDrive_Desktop_Parrale task_lms client_a0ff3932._.js",
+      "static/chunks/turbopack-OneDrive_Desktop_Parrale task_lms client_e9c1316b._.js"
+    ]
+  }
+}
