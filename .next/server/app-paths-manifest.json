@@ -1,5 +1,12 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/courses/[slug]/page": "app/courses/[slug]/page.js",
+  "/learn/[courseId]/page": "app/learn/[courseId]/page.js",
+  "/admin/courses/[id]/content/page": "app/admin/courses/[id]/content/page.js",
+  "/admin/courses/page": "app/admin/courses/page.js",
+  "/admin/lectures/page": "app/admin/lectures/page.js",
+  "/admin/login/page": "app/admin/login/page.js",
+  "/admin/page": "app/admin/page.js",
   "/page": "app/page.js"
 }

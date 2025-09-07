@@ -1,12 +1,12 @@
 {
-  "/_not-found/page": "/_not-found",
   "/favicon.ico/route": "/favicon.ico",
+  "/_not-found/page": "/_not-found",
   "/courses/[slug]/page": "/courses/[slug]",
   "/learn/[courseId]/page": "/learn/[courseId]",
   "/admin/courses/[id]/content/page": "/admin/courses/[id]/content",
   "/admin/courses/page": "/admin/courses",
   "/admin/lectures/page": "/admin/lectures",
-  "/admin/page": "/admin",
   "/admin/login/page": "/admin/login",
+  "/admin/page": "/admin",
   "/page": "/"
 }

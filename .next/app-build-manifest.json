@@ -1,41 +1,88 @@
 {
   "pages": {
     "/_not-found/page": [
-      "static/chunks/0bbf2_next_dist_ebd0b712._.js",
-      "static/chunks/OneDrive_Desktop_Parrale task_lms client_src_app_favicon_ico_mjs_1df5b4fc._.js",
-      "static/chunks/[root-of-the-server]__ce8fc1ea._.css",
-      "static/chunks/0bbf2_next_18286e25._.js",
-      "static/chunks/b1735_Parrale task_lms client_src_app_components_layout_SiteHeader_tsx_5ba1d7bf._.js",
-      "static/chunks/OneDrive_Desktop_Parrale task_lms client_src_app_layout_tsx_b51603d9._.js",
-      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_df064d22._.js",
-      "static/chunks/0bbf2_next_dist_compiled_react-dom_68e035a3._.js",
-      "static/chunks/0bbf2_next_dist_compiled_next-devtools_index_ae1335e5.js",
-      "static/chunks/0bbf2_next_dist_compiled_ba378c60._.js",
-      "static/chunks/0bbf2_next_dist_client_0a8fe7af._.js",
-      "static/chunks/0bbf2_next_dist_8daebe2f._.js",
-      "static/chunks/0bbf2_@swc_helpers_cjs_5c0e4447._.js",
-      "static/chunks/OneDrive_Desktop_Parrale task_lms client_a0ff3932._.js",
-      "static/chunks/turbopack-OneDrive_Desktop_Parrale task_lms client_e9c1316b._.js"
+      "static/chunks/webpack-f2a0bcc98f41bcf4.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-e3bf15caf1f1e0f9.js",
+      "static/chunks/main-app-2f4911be5d1c74aa.js",
+      "static/chunks/app/_not-found/page-74035b401a1ae295.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-f2a0bcc98f41bcf4.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-e3bf15caf1f1e0f9.js",
+      "static/chunks/main-app-2f4911be5d1c74aa.js",
+      "static/css/bde0fbd64be37a0b.css",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/610-3b95fe62c1b55da2.js",
+      "static/chunks/app/layout-814b155b1c8b16f8.js"
+    ],
+    "/courses/[slug]/page": [
+      "static/chunks/webpack-f2a0bcc98f41bcf4.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-e3bf15caf1f1e0f9.js",
+      "static/chunks/main-app-2f4911be5d1c74aa.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/app/courses/[slug]/page-0e0e36387f277739.js"
+    ],
+    "/learn/[courseId]/page": [
+      "static/chunks/webpack-f2a0bcc98f41bcf4.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-e3bf15caf1f1e0f9.js",
+      "static/chunks/main-app-2f4911be5d1c74aa.js",
+      "static/chunks/app/learn/[courseId]/page-1ff2a339252501fa.js"
+    ],
+    "/admin/layout": [
+      "static/chunks/webpack-f2a0bcc98f41bcf4.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-e3bf15caf1f1e0f9.js",
+      "static/chunks/main-app-2f4911be5d1c74aa.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/app/admin/layout-f4a4444acad03bbd.js"
+    ],
+    "/admin/courses/[id]/content/page": [
+      "static/chunks/webpack-f2a0bcc98f41bcf4.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-e3bf15caf1f1e0f9.js",
+      "static/chunks/main-app-2f4911be5d1c74aa.js",
+      "static/chunks/app/admin/courses/[id]/content/page-6d2f0830d04aed61.js"
+    ],
+    "/admin/courses/page": [
+      "static/chunks/webpack-f2a0bcc98f41bcf4.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-e3bf15caf1f1e0f9.js",
+      "static/chunks/main-app-2f4911be5d1c74aa.js",
+      "static/chunks/app/admin/courses/page-b89d68e224afe1ae.js"
+    ],
+    "/admin/lectures/page": [
+      "static/chunks/webpack-f2a0bcc98f41bcf4.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-e3bf15caf1f1e0f9.js",
+      "static/chunks/main-app-2f4911be5d1c74aa.js",
+      "static/chunks/app/admin/lectures/page-ce40e1a743533263.js"
+    ],
+    "/admin/login/page": [
+      "static/chunks/webpack-f2a0bcc98f41bcf4.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-e3bf15caf1f1e0f9.js",
+      "static/chunks/main-app-2f4911be5d1c74aa.js",
+      "static/chunks/457-2ca97ac850f4eb78.js",
+      "static/chunks/app/admin/login/page-49547215b6fb52ee.js"
+    ],
+    "/admin/page": [
+      "static/chunks/webpack-f2a0bcc98f41bcf4.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-e3bf15caf1f1e0f9.js",
+      "static/chunks/main-app-2f4911be5d1c74aa.js",
+      "static/chunks/app/admin/page-1ddf488c34caf55f.js"
     ],
     "/page": [
-      "static/chunks/0bbf2_next_dist_ebd0b712._.js",
-      "static/chunks/OneDrive_Desktop_Parrale task_lms client_src_app_favicon_ico_mjs_1df5b4fc._.js",
-      "static/chunks/[root-of-the-server]__ce8fc1ea._.css",
-      "static/chunks/0bbf2_next_18286e25._.js",
-      "static/chunks/b1735_Parrale task_lms client_src_app_components_layout_SiteHeader_tsx_5ba1d7bf._.js",
-      "static/chunks/OneDrive_Desktop_Parrale task_lms client_src_app_layout_tsx_b51603d9._.js",
-      "static/chunks/0bbf2_next_dist_client_components_builtin_global-error_fd2e272c.js",
-      "static/chunks/OneDrive_Desktop_Parrale task_lms client_src_app_components_course_843c478c._.js",
-      "static/chunks/OneDrive_Desktop_Parrale task_lms client_src_app_page_tsx_fd2e272c._.js",
-      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_df064d22._.js",
-      "static/chunks/0bbf2_next_dist_compiled_react-dom_68e035a3._.js",
-      "static/chunks/0bbf2_next_dist_compiled_next-devtools_index_ae1335e5.js",
-      "static/chunks/0bbf2_next_dist_compiled_ba378c60._.js",
-      "static/chunks/0bbf2_next_dist_client_0a8fe7af._.js",
-      "static/chunks/0bbf2_next_dist_8daebe2f._.js",
-      "static/chunks/0bbf2_@swc_helpers_cjs_5c0e4447._.js",
-      "static/chunks/OneDrive_Desktop_Parrale task_lms client_a0ff3932._.js",
-      "static/chunks/turbopack-OneDrive_Desktop_Parrale task_lms client_e9c1316b._.js"
+      "static/chunks/webpack-f2a0bcc98f41bcf4.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-e3bf15caf1f1e0f9.js",
+      "static/chunks/main-app-2f4911be5d1c74aa.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/app/page-f1739e0148ce0aee.js"
     ]
   }
 }

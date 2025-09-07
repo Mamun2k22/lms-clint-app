@@ -1,26 +1,33 @@
 {
-  "pages": {
-    "/_app": []
-  },
+  "polyfillFiles": [
+    "static/chunks/polyfills-42372ed130431b0a.js"
+  ],
   "devFiles": [],
   "ampDevFiles": [],
-  "polyfillFiles": [
-    "static/chunks/0bbf2_next_dist_build_polyfills_polyfill-nomodule.js"
-  ],
   "lowPriorityFiles": [
-    "static/development/_ssgManifest.js",
-    "static/development/_buildManifest.js"
+    "static/f6fbOuG3fuupK_qQ5kf16/_buildManifest.js",
+    "static/f6fbOuG3fuupK_qQ5kf16/_ssgManifest.js"
   ],
   "rootMainFiles": [
-    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_df064d22._.js",
-    "static/chunks/0bbf2_next_dist_compiled_react-dom_68e035a3._.js",
-    "static/chunks/0bbf2_next_dist_compiled_next-devtools_index_ae1335e5.js",
-    "static/chunks/0bbf2_next_dist_compiled_ba378c60._.js",
-    "static/chunks/0bbf2_next_dist_client_0a8fe7af._.js",
-    "static/chunks/0bbf2_next_dist_8daebe2f._.js",
-    "static/chunks/0bbf2_@swc_helpers_cjs_5c0e4447._.js",
-    "static/chunks/OneDrive_Desktop_Parrale task_lms client_a0ff3932._.js",
-    "static/chunks/turbopack-OneDrive_Desktop_Parrale task_lms client_e9c1316b._.js"
+    "static/chunks/webpack-f2a0bcc98f41bcf4.js",
+    "static/chunks/4bd1b696-c023c6e3521b1417.js",
+    "static/chunks/255-e3bf15caf1f1e0f9.js",
+    "static/chunks/main-app-2f4911be5d1c74aa.js"
   ],
+  "rootMainFilesTree": {},
+  "pages": {
+    "/_app": [
+      "static/chunks/webpack-f2a0bcc98f41bcf4.js",
+      "static/chunks/framework-acd67e14855de5a2.js",
+      "static/chunks/main-3e8a46f5e98ab4cc.js",
+      "static/chunks/pages/_app-82835f42865034fa.js"
+    ],
+    "/_error": [
+      "static/chunks/webpack-f2a0bcc98f41bcf4.js",
+      "static/chunks/framework-acd67e14855de5a2.js",
+      "static/chunks/main-3e8a46f5e98ab4cc.js",
+      "static/chunks/pages/_error-013f4188946cdd04.js"
+    ]
+  },
   "ampFirstPages": []
 }
